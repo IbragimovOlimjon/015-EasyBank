@@ -93,7 +93,7 @@ body {
 }
 
 *:focus {
-    outline-color: var(--color-link);                             
+    outline-color: var(--color-hover-footer);                             
     outline-offset: 2px;
     outline-width: 3px;
     outline-style: dashed;
