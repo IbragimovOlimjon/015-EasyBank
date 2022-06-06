@@ -257,8 +257,8 @@ img {
 
 /* FEATURES */
 .features {
-    padding-top: 136px;
-    padding-bottom: 60px;
+    padding-top: 96px;
+    padding-bottom: 94px;
     background-color: var(--fon-list);
 }
 .features__info {
@@ -305,7 +305,7 @@ img {
     justify-content: center;
     width: 72px;
     height: 72px;
-    background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+    background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58% );
     border-radius: 50%;
     margin-bottom: 40px;
 }
@@ -337,8 +337,8 @@ img {
 
 /* ARTICLES */
 .articles {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 87px;
+    padding-bottom: 81px;
     background-color: var(--fon-articles);
 }
 
@@ -360,6 +360,7 @@ img {
 
 .articles__iteam {
     max-width: 255px;
+    border-radius: 5px;
     background-color: var(--color);
 }
 
