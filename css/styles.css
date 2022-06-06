@@ -470,6 +470,7 @@ img {
 
 .site-footer__icon:hover {
     color: var(--color-hover-footer);
+    transform: scale(1.5);
 }
 
 .site-footer__lists {
@@ -488,13 +489,11 @@ img {
     transition: 0.2s ease;
     padding-left: 3px;
     padding-right: 3px;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 .site-footer__links:hover {
     color: var(--color-hover-footer);
-    transform-origin: left right;
-    transform: rotate(-5deg);
+    transform: scale(1.2);
 }
 
 
