@@ -5,7 +5,7 @@
     --color-title:#2D314D;
     --color-link-gradient:linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
     --fon-list:#F4F5F7;
-    --fon-articles:#F2F2F2;
+    --fon-articles:#fafafa;
     --color-hover-footer:#30C88F;
     --fonts:'Public Sans', 'Arial', sans-serif;
 }
@@ -64,7 +64,7 @@ body {
     font-size: 16px;
     line-height: 26px;
     overflow-x: hidden;
-    background-color: var(--color);
+    background-color: var(--fon-articles);
     color: var(--color-text);
     font-family: var(--fonts);
 }
@@ -199,7 +199,7 @@ img {
     background-image: url("../img/hero-img.svg");
     background-repeat: no-repeat;
     background-position: calc(50% + 594px) -260px;
-    background-color: var(--color);
+    background-color: var(--fon-articles);
 }
 
 .hero__container {
@@ -257,7 +257,7 @@ img {
 
 /* FEATURES */
 .features {
-    padding-top: 98px;
+    padding-top: 136px;
     padding-bottom: 60px;
     background-color: var(--fon-list);
 }
@@ -337,7 +337,7 @@ img {
 
 /* ARTICLES */
 .articles {
-    padding-top: 120px;
+    padding-top: 80px;
     padding-bottom: 80px;
     background-color: var(--fon-articles);
 }
