@@ -365,7 +365,7 @@ img {
 /* ARTICLES */
 .articles {
     padding-top: 87px;
-    padding-bottom: 81px;
+    padding-bottom: 78px;
     background-color: var(--fon-articles);
 }
 
@@ -397,6 +397,7 @@ img {
 }
 
 .articles__img {
+    display: block;
     width: 255px;
     height: 200px;
     object-fit: cover;
@@ -404,7 +405,7 @@ img {
 }
 
 .articles__info-wrapper {
-    padding: 17px 24px 24px 24px;
+    padding: 28px 24px 24px 24px;
 }
 
 .articles__mini-title {
