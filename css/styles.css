@@ -448,8 +448,8 @@ img {
 
 /* SITE FOOTER */
 .site-footer {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 44px;
+    padding-bottom: 44px;
     background-color: var(--color-title);
     color: var(--color);
 }
