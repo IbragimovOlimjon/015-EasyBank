@@ -184,6 +184,7 @@ img {
     line-height: 16px;
     letter-spacing: -0.107692px;
     color: var(--color-text);
+    transition: 0.2s ease;
 }
 
 .sitenav__link::after {
@@ -200,6 +201,10 @@ img {
 
 .sitenav__link:hover::after {
     opacity: 1;
+}
+
+.sitenav__link:hover {
+    color: var(--color-title);
 }
 
 .site-header__link:hover {
