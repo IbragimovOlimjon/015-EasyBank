@@ -216,7 +216,7 @@ img {
     padding-bottom: 170px;
     background-image: url("../img/hero-img.svg");
     background-repeat: no-repeat;
-    background-position: calc(50% + 594px) -260px;
+    background-position: calc(50% + 596px) -261px;
     background-color: var(--fon-articles);
 }
 
@@ -263,8 +263,8 @@ img {
     width: 780px;
     height: 940px;
     object-fit: cover;
-    right: -278px;
-    top: -293px;
+    right: -280px;
+    top: -294px;
     z-index: 1;
 }
 
@@ -509,8 +509,9 @@ img {
     margin-right: 30px;
 }
 
-.site-footer__items:not(:last-child) {
-    margin-bottom: 8px;
+.site-footer__items {
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 .site-footer__links {
